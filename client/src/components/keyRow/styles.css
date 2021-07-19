@@ -1,18 +1,18 @@
 
 .keyRow{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
 .key{
-    width: clamp(3vw,4vw,60px);
-    height: clamp(3vw,4vw,60px);;
+    width: clamp(3vw,4vw,40px);
+    height: clamp(3vw,4vw,40px);;
     border-radius: 1rem;
     margin: 10px;
     border: grey solid 3px;
     color: grey;
     background-color: black;
-    font-size: clamp(2vw,3vw,40px);
+    font-size: clamp(1vw,1.5vw,20px);
     font-weight: 600;
     z-index: 100;
     cursor: pointer;

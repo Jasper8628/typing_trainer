@@ -2,20 +2,20 @@
   border-top: 5px rgb(187, 187, 187) solid;
   border-left: 5px rgb(187, 187, 187) solid;
   border-right: 5px rgb(187, 187, 187) solid;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  height: 100px;
-  width: 50px;
-  margin: 10px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  height: clamp(5vh,10vh,80px);
+  width: 70px;
+  margin: 15px;
 }
 .Pinky{
-  height: 120px;
+  height: clamp(9vh,18vh,120px);
 }
 .RingFinger,.IndexFinger{
-  height: 200px;
+  height: clamp(12vh,24vh,200px);
 }
 .MiddleFinger{
-  height: 220px;
+  height: clamp(15vh,30vh,220px);
 }
 .finger-active{
   border-top: 9px rgb(134, 233, 41) solid;
@@ -25,14 +25,14 @@
 }
 .hand{
   display: flex;
-  margin-right: 10px;
+  margin-right: 60px;
   margin-left: 20px;
   align-items:flex-end;
 }
 .handsContainer{
   display: flex;
   position: absolute;
-  top:75%;
+  bottom:5%;
   left:50%;
   transform: translate(-50%,-50%);
 }
