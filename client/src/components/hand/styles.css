@@ -1,0 +1,38 @@
+.finger{
+  border-top: 5px rgb(187, 187, 187) solid;
+  border-left: 5px rgb(187, 187, 187) solid;
+  border-right: 5px rgb(187, 187, 187) solid;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  height: 100px;
+  width: 50px;
+  margin: 10px;
+}
+.Pinky{
+  height: 120px;
+}
+.RingFinger,.IndexFinger{
+  height: 200px;
+}
+.MiddleFinger{
+  height: 220px;
+}
+.finger-active{
+  border-top: 9px rgb(134, 233, 41) solid;
+  border-left: 9px rgb(134, 233, 41) solid;
+  border-right: 9px rgb(134, 233, 41) solid;
+
+}
+.hand{
+  display: flex;
+  margin-right: 10px;
+  margin-left: 20px;
+  align-items:flex-end;
+}
+.handsContainer{
+  display: flex;
+  position: absolute;
+  top:75%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}

@@ -1,0 +1,23 @@
+.container{
+  display: block;
+  width: 80%;
+  background: grey;
+  margin-left: 10%;
+}
+.head{
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100px;
+  padding-top: 5%;
+}
+.next{
+  margin-left: 5px;
+  background: none;
+  border:none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+body{
+  background: black;
+}

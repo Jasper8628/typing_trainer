@@ -1,0 +1,49 @@
+
+.keyRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key{
+    width: clamp(3vw,4vw,60px);
+    height: clamp(3vw,4vw,60px);;
+    border-radius: 1rem;
+    margin: 10px;
+    border: grey solid 3px;
+    color: grey;
+    background-color: black;
+    font-size: clamp(2vw,3vw,40px);
+    font-weight: 600;
+    z-index: 100;
+    cursor: pointer;
+}
+#space{
+  position: relative;
+  left: 30%;
+    width: clamp(6vw,10vw,300px);
+}
+#cap-lock{
+    width: clamp(4vw,6vw,120px);
+    font-size: clamp(1vw,2vw,20px);
+}
+#r-shift, #l-shift{
+    width: clamp(4vw,7vw,150px);
+    font-size: clamp(1vw,2vw,20px);
+}
+#tab{
+    width: clamp(3vw,5vw,100px);
+    font-size: clamp(1vw,2vw,20px);
+
+}
+.key-active{
+    border: rgb(81, 205, 50) solid 6px;
+}
+.keyBoard{
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 7%;
+  padding-bottom: 2%;
+}
+.button-active{
+  color:rgb(99, 205, 50) ;
+}
