@@ -1,8 +1,10 @@
 
-.keyRow{
+.row{
     display: block;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin-left: 19%;
 }
 .key{
     width: clamp(3vw,4vw,40px);
@@ -37,12 +39,6 @@
 }
 .key-active{
     border: rgb(81, 205, 50) solid 6px;
-}
-.keyBoard{
-  width: 80%;
-  margin-left: 20%;
-  margin-top: 7%;
-  padding-bottom: 2%;
 }
 .button-active{
   color:rgb(99, 205, 50) ;
