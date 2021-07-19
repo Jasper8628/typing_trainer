@@ -62,6 +62,9 @@ function Display() {
         setCurrentLetterIndex(currentLetterIndex - 1);
       }
     }
+    if (letter === 'tab') {
+      nextPage();
+    }
   }
 
   const converSymbolToLetter = (input) => {

@@ -6,7 +6,7 @@
   border-top-left-radius: 40px;
   height: clamp(5vh,10vh,80px);
   width: 70px;
-  margin: 15px;
+  margin: 12px;
 }
 .Pinky{
   height: clamp(9vh,18vh,120px);
@@ -26,13 +26,6 @@
 .hand{
   display: flex;
   margin-right: 60px;
-  margin-left: 20px;
+  margin-left: 10px;
   align-items:flex-end;
-}
-.handsContainer{
-  display: flex;
-  position: absolute;
-  bottom:5%;
-  left:50%;
-  transform: translate(-50%,-50%);
 }
